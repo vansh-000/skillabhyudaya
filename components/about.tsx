@@ -24,7 +24,7 @@ const About = () => {
                 height={100}
                 className=" m-auto object-cover rounded-full mb-4"
               />
-              <h2 className="lg:text-2xl text-lg md:text-xl font-bold mb-4">
+              <h2 className="lg:text-2xl text-center text-lg md:text-xl font-bold w-full m-auto mb-4">
                 FORCE
               </h2>
               <p className="lg:text-lg md:text-base text-sm text-justify">
@@ -51,7 +51,7 @@ const About = () => {
                 className=" m-auto object-cover rounded-full mb-4"
               />
 
-              <h2 className="lg:text-2xl text-lg md:text-xl font-bold mb-4">
+              <h2 className="lg:text-2xl text-center text-lg md:text-xl font-bold w-full m-auto mb-4">
                 SKILLABHYUDAYA
               </h2>
               <p className="lg:text-lg md:text-base text-sm text-justify">

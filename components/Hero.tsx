@@ -53,10 +53,6 @@ const Hero = () => {
             className="text-center text-3xl lg:text-4xl"
             words="Development and Design event of IIIT Una"
           />
-          <TextGenerateEffect
-            className="text-center tracking-wider mb-4 text-2xl"
-            words="Hosted by FORCE"
-          />
         </div>
       </div>
     </div>
