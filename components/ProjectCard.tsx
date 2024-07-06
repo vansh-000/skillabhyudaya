@@ -4,7 +4,16 @@ import Link from "next/link";
 import { GitHub, Linkedin } from "react-feather";
 import { BackgroundGradient } from "./ui/BackgroundGradient";
 
-const ProjectCard = ({ position, image, title, live, github, participants }) => {
+interface ProjectCardProps {
+  position: number;
+  image: string;
+  title: string;
+  live: string;
+  github: string;
+  participants: string[];
+}
+
+const ProjectCard: React.FC<ProjectCardProps> = ({ position, image, title, live, github, participants }) => {
   return (
     <div className="flex justify-center mb-12 mx-5">
       <BackgroundGradient className="relative rounded-[22px] max-w-sm p-6 bg-white dark:bg-zinc-900">
@@ -13,7 +22,7 @@ const ProjectCard = ({ position, image, title, live, github, participants }) => 
             className="h-10 w-10 bg-[#bab736] rounded-full"
             style={{ boxShadow: "0px 0px 3px 5px #4e5029" }}
           >
-            <h1 className=" p-2 " >#{position}</h1>
+            <h1 className="p-2">#{position}</h1>
           </div>
         </div>
 
