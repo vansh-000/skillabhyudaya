@@ -7,7 +7,7 @@ import { SparklesCore } from "./ui/SparklesProps";
 
 const Hero = () => {
   return (
-    <div className="pb-10 pt-10">
+    <div className="p-10">
       <Spotlight
         className="hidden md:block absolute -top-10 -left-10 h-[500vh] md:h-[150vh] w-[10vw] md:w-[1000vw] lg:w-[100vw]"
         fill="white"

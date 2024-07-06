@@ -26,7 +26,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ position, image, title, live,
           </div>
         </div>
 
-        <h1 className="text-4xl font-bold pb-2 text-[#fcffff] mt-5">{title}</h1>
+        <h1 className="text-xl lg:text-3xl md:text-2xl font-bold pb-2 text-[#fcffff] mt-5">{title}</h1>
         <p className="pb-4 text-gray-400">
           Some short description about the project and specifications.
         </p>

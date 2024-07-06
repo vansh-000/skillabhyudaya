@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <h1 className="uppercase tracking-widest text-center font-bold m-16">
-        <span className="text-center tracking-widest text-xl md:text-3xl lg:text-4xl">
+        <span className="text-center tracking-widest text-3xl">
           Android Development projects
         </span>
       </h1>

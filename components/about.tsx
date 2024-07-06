@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="relative flex flex-col items-center justify-center bg-transparent text-white">
       <h1 className="uppercase tracking-widest text-center font-bold mb-10">
-        <span className="text-center tracking-widest text-xl md:text-3xl lg:text-4xl">
+        <span className="text-center tracking-widest text-3xl">
           About
         </span>
       </h1>
