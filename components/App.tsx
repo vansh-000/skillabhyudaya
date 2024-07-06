@@ -1,17 +1,17 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import {webwinners} from "@/utils/winners";
+import {appwinners} from "@/utils/winners";
 
-const Web = () => {
+const App = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <h1 className="uppercase tracking-widest text-center font-bold m-16">
         <span className="text-center tracking-widest text-xl md:text-3xl lg:text-4xl">
-          Web Development
+          Android Development projects
         </span>
       </h1>
       <div className="flex flex-col lg:flex-row justify-center gap-6">
-      {webwinners.map((winner) => (
+      {appwinners.map((winner) => (
         <ProjectCard
           key={winner.key}
           title={winner.title}
@@ -27,4 +27,4 @@ const Web = () => {
   );
 }
 
-export default Web;
+export default App;

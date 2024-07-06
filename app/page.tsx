@@ -1,8 +1,8 @@
 import About from "@/components/about";
 import Gallery from "@/components/Gallery";
 import Hero from "@/components/Hero";
-import { ProjectCard } from "@/components/ProjectCard";
 import Web from "@/components/Web";
+import App from "@/components/App";
 
 export default function Home() {
   return (
@@ -10,8 +10,9 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <Hero />
         <About />
-        <Gallery />
         <Web />
+        <App/>
+        <Gallery />
       </div>
     </main>
   );
