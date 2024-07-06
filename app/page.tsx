@@ -1,6 +1,8 @@
 import About from "@/components/about";
 import Gallery from "@/components/Gallery";
 import Hero from "@/components/Hero";
+import { ProjectCard } from "@/components/ProjectCard";
+import Web from "@/components/Web";
 
 export default function Home() {
   return (
@@ -9,6 +11,7 @@ export default function Home() {
         <Hero />
         <About />
         <Gallery />
+        <Web />
       </div>
     </main>
   );
